@@ -42,7 +42,7 @@ const Hero = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 2 }}
           className="md:text-2xl text-lg md:leading-normal leading-5 ml-1.5 font-bold text-slate-500">
-           I'm Vaishnavi And I Am A Fullstack Developer
+           I'm Vaishnavi And I Am A Full-Stack Developer
           </motion.h4>
           <motion.a  
                                           initial={{ x: -80, opacity: 0 }}
