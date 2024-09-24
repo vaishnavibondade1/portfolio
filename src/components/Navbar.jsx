@@ -25,8 +25,8 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-12">
           <a  href="MENU">
-          <h4 className="text-4xl uppercase font-bold text-gray-900" font-family="Snell Roundhand, cursive">
-            VB
+          <h4 className="text-4xl uppercase font-bold text-gray-900">
+            V<span className="text-gray-900">B</span>
           </h4>
           </a>
         </div>

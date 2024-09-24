@@ -55,12 +55,12 @@ const Project = () => {
       live_link: "https://math-quiz-vb.netlify.app/",  },
       {
         img: project8,
-        name: "Maths Quiz",
+        name: "Portfolio-css-js",
         github_link: "",
         live_link: "https://portfoliovb23.netlify.app/",  },
         {
           img: project9,
-          name: "Maths Quiz",
+          name: "dribblesvb",
           github_link: "",
           live_link: "https://dribbblesvb.netlify.app/",  },
   ];
