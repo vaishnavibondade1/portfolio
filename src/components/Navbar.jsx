@@ -24,7 +24,7 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center justify-between">
-        <div className="mx-4 pb-4 smd:mx-12">
+        <div className="mx-4 pb-4 mb-8 md:mx-12">
           <a  href="#home">
          <img src={Logo} alt="Logo"></img>
           </a>
