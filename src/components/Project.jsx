@@ -69,7 +69,7 @@ const Project = () => {
                         initial={{ y: -80, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1 }} className="text-4xl font-semibold text-white">
-          My <span className="text-white">PROJECTS</span>
+          My <span className="text-cyan-600">PROJECTS</span>
         </motion.h3>
       </div>
       <br />
