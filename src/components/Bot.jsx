@@ -32,11 +32,11 @@ const Bot = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="fixed bottom-20 sm:right-8 right-4 z-[998] bg-white shadow-lg w-25 h-30 md:w-80 md:h-50 rounded-lg p-4 border border-gray-300"
+          className="fixed bottom-20 sm:right-8 right-4 z-[998] bg-white shadow-lg w-25 h-35 md:w-80 md:h-50 rounded-lg p-4 border border-slate-600"
         >
           <h2 className="md:text-xl font-semibold">Hi! How can i help?</h2>
           <textarea
-            className="w-full h-30 p-2 border border-gray-300 rounded bg-gray-100"
+            className="w-full h-35 p-2 border border-gray-300 rounded bg-gray-100"
             placeholder="Type your message..."
           />
           <a href="#contact">   <button  onClick={toggleChat} className="mt-2 bg-cyan-600 text-white px-4 py-2 rounded">
