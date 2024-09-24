@@ -15,13 +15,7 @@ const Bot = () => {
     }
   };
 
-  const menuLinks = [
-    { name: "HOME", link: "#home" },
-    { name: "ABOUT", link: "#about" },
-    { name: "SKILLS", link: "#skills" },
-    { name: "PROJECTS", link: "#projects" },
-    { name: "CONTACT", link: "#contact" },
-  ]; 
+ 
 
   return (
     <>
@@ -45,7 +39,7 @@ const Bot = () => {
             className="w-full h-20 p-2 border border-gray-300 rounded bg-gray-100"
             placeholder="Type your message..."
           />
-          <a href="MENU">   <button className="mt-2 bg-cyan-600 text-white px-4 py-2 rounded">
+          <a href="#contact">   <button  onClick={toggleChat} className="mt-2 bg-cyan-600 text-white px-4 py-2 rounded">
             Send
           </button></a>
        
