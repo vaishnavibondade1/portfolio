@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
+import resume from '../assets/VaishnaviBondadeResumee.pdf'; 
 
 const Hero = () => {
   const social_media = [
@@ -47,7 +48,8 @@ const Hero = () => {
                                           initial={{ x: -80, opacity: 0 }}
                                           whileInView={{ x: 0, opacity: 1 }}
                                           transition={{ duration: 1 }}
-           href="./src/assets/Resume_Vaishnavi_Bondade.pdf" download>
+             href={resume} // Use the imported resume file
+  download >
                 <motion.button
                 initial={{ x: -80, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
