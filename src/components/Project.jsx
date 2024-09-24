@@ -58,11 +58,7 @@ const Project = () => {
         name: "Portfolio-css-js",
         github_link: "",
         live_link: "https://portfoliovb23.netlify.app/",  },
-        {
-          img: project9,
-          name: "dribblesvb",
-          github_link: "",
-          live_link: "https://dribbblesvb.netlify.app/",  },
+      
   ];
 
 

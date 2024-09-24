@@ -35,14 +35,14 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>Vaishnavi Bondade</span>
+            Welcome to my <span>Portfolio</span>
           </motion.h1>
           <motion.h4 
           initial={{ x: -80, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 2 }}
-          className="md:text-2xl text-lg md:leading-normal leading-5 mt-1 font-bold text-slate-500">
-            Fullstack Developer
+          className="md:text-2xl text-lg md:leading-normal leading-5 ml-1.5 font-bold text-slate-500">
+           I'm A Fullstack Developer
           </motion.h4>
           <motion.a  
                                           initial={{ x: -80, opacity: 0 }}

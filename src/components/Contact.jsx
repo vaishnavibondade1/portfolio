@@ -15,7 +15,7 @@ const Contact = () => {
     initial={{ y: -80, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}
     transition={{ duration: 2 }}
-    id="contact" className="min-h-screen px-4 text-white pt-28">
+    id="contact" className="min-h-screen px-6 text-white pt-28 mb-8">
       <div className="text-center">
       <h3 className="text-4xl font-semibold">
         <span className="text-gray-900">CONTACT</span>
