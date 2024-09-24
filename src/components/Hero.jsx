@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import resume from '../assets/VaishnaviBondadeResume (1) (2).pdf'; 
+import resume from '../assets/Vaishnavi-Bondade-Resume.pdf'; 
 
 const Hero = () => {
   const social_media = [
