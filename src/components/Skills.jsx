@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css"; // Import theme styles
 
 const Skills = () => {
   const skills = [
-    "JAVA", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", 
+    "JAVA 8", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", 
     "API integration, Context API, RESTful API", "HTML, CSS", 
     "Bootstrap", "Tailwind CSS", "SASS","Git, GitHub", "Netlify, Vercel, Firebase", "Redux", "Spring Boot", "React Native", "VS Code", "Responsive Design", "UI/UX Design, Figma"
   ];
