@@ -49,7 +49,8 @@ const Hero = () => {
                                           whileInView={{ x: 0, opacity: 1 }}
                                           transition={{ duration: 1 }}
              href={resume} // Use the imported resume file
-  download >
+  download > 
+
                 <motion.button
                 initial={{ x: -80, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
@@ -64,7 +65,7 @@ const Hero = () => {
             {social_media.map((social) => (
               <div
                 key={social.icon}
-                className="text-gray-600 hover:text-white cursor-pointer"
+                className="text-gray-600 hover:text-cyan-600 ml-2 cursor-pointer"
               >
                 <a href={social.url} target="_blank" rel="noopener noreferrer">
                   <ion-icon name={social.icon}></ion-icon>
